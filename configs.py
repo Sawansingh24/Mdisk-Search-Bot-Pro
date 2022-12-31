@@ -1,4 +1,4 @@
-# (c) @Sawan_singh_24
+# (c) @RoyalKrrishna
 
 import os
 # from dotenv import load_dotenv
@@ -17,7 +17,7 @@ class Config(object):
     BOT_OWNER = int(os.getenv("2091430700"))
 #    OWNER_USERNAME = os.getenv("@Sawan_singh_24")
     BACKUP_CHANNEL = os.getenv("CW_wins_movie")
-#    GROUP_USERNAME = os.getenv("@CW_movie_request")
+#    GROUP_USERNAME = os.getenv("CW_movie_request")
     START_MSG = os.getenv("START_MSG", '''Hᴇʏ Bᴜᴅᴅʏ! 😃
 
 I'ᴍ A Bᴏᴛ Fᴏʀ Sᴇɴᴅɪɴɢ Fʀᴏᴍ Yᴏᴜʀ Cʜᴀɴɴᴇʟ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ.😚
@@ -35,8 +35,8 @@ Fᴏʀ Mᴏʀᴇ Iɴꜰᴏ Cʟɪᴄᴋ Oɴ Hᴇʟᴘ ✅''')
     LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "--1001871848830"))
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 5))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
-    UPDATES_CHANNEL_USERNAME = os.getenv("Update_channel_name", "@CW_wins_movie")
-    FORCE_SUB = os.getenv("FORCE_SUB", "True")
+    UPDATES_CHANNEL_USERNAME = os.getenv("Update_channel_name", "CW_wins_movie")
+    FORCE_SUB = os.getenv("FORCE_SUB", "False")
     AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 300))
     MDISK_API = os.getenv("MDISK_API", "ya0uBq9HC8v1V9puQcrs")
     VERIFIED_TIME  = int(os.getenv("VERIFIED_TIME", "1"))
