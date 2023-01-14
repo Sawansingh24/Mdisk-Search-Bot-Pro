@@ -18,5 +18,5 @@ RUN mkdir /Mdisk-Search-Bot-Pro
 WORKDIR /Mdisk-Search-Bot-Pro
 COPY start.sh /start.sh
 
-# Running Mdisk-Search-Bot-Pro
+# Running MessageSearchBot
 CMD ["/bin/bash", "/start.sh"]
